@@ -1,0 +1,21 @@
+erDiagram
+FUNCIONARIO||--|{ TAREFA: "Possuem"
+FUNCIONARIO||--|{ SETOR: "Possuem"
+
+FUNCIONARIO{
+    matricula int PK "not null"
+    nome String "not null"
+    id_setor int FK "not null"
+}
+TAREFA{
+    ID int PK "not null"
+    descricao String "not null"
+    data_limite date "note null"
+    status String "not null"
+    id_funcionario int FK "not null"
+}
+SETOR{
+    ID int PK "not null" 
+    nome String "not null"
+}
+
