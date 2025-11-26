@@ -4,7 +4,7 @@ Este projeto é uma aplicação de gerenciamento de tarefas desenvolvida como pa
 
 O projeto foi baseado na estrutura de aprendizado do repositório [example_crud_mongo](https://github.com/howardroatti/example_crud_mongo.git).
 
-## 📋 Funcionalidades
+##  Funcionalidades
 
 O sistema é capaz de realizar as seguintes operações com tarefas:
 * **Criar Tarefa**: Adicionar uma nova tarefa com descrição e status.
@@ -12,7 +12,7 @@ O sistema é capaz de realizar as seguintes operações com tarefas:
 * **Atualizar Tarefa**: Modificar a descrição ou o status de uma tarefa existente.
 * **Deletar Tarefa**: Remover uma tarefa do banco de dados.
 
-## 🛠️ Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 * **Linguagem**: Python 3.x
 * **Banco de Dados**: MongoDB (Atlas ou Local)
@@ -20,7 +20,7 @@ O sistema é capaz de realizar as seguintes operações com tarefas:
     * `pymongo` (Driver de conexão com o MongoDB)
     * `pandas` (Opcional, para manipulação de dados, se utilizado)
 
-## 🚀 Como Executar o Projeto
+##  Como Executar o Projeto
 
 Siga os passos abaixo para configurar e rodar a aplicação em sua máquina local.
 
